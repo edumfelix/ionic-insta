@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Perfil
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-avatar item-start class="img-center">
+    <img src="https://picsum.photos/80/80">
+  </ion-avatar>
+
+  <ion-list>
+    <ion-item no-lines>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Usuário:</ion-label>
+      <ion-input type="text" [(ngModel)]="usuario"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label stacked>Senha:</ion-label>
+      <ion-input type="password" [(ngModel)]="senha"></ion-input>
+    </ion-item>
+    
+    <button ion-button block class="login-insta" (click) ="salvar()" (click) ="showConfirm()">Entrar</button>
+  </ion-list>
+</ion-content>

@@ -1,3 +1,12 @@
 page-home {
 
 }
+@font-face {
+  font-family: 'Billabong';
+  src: url('../assets/fonts/FontsFree-Net-Billabong.ttf');//mine
+}
+
+.title-insta {
+  font-size: 3rem !important;
+  font-family: 'Billabong';
+}
